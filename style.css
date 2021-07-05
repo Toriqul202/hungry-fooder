@@ -118,7 +118,7 @@ body{
 .third-section-flex-items{
     width: 34%;
     margin-left: 15px;
-    height: 300px;
+    height: auto;
     box-shadow: 10px 15px 50px gray;
     border-radius: 20px;
     padding: 10px 10px;
