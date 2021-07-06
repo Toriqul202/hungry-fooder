@@ -3,6 +3,9 @@ body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+p{
+    font-size: small;
+}
 
 .first-section-flex{
     display: flex;
@@ -26,7 +29,6 @@ body{
     width: 70%;
     text-align: justify;
     font-weight: 500;
-    font-size: 15px;
     font-weight: 500;
 }
 
@@ -49,7 +51,7 @@ body{
 .second-section-flex{
     display: flex;
     
-    background-image: url(images/shapes/second-section-background.jpg);
+    background-image: url(images/shapes/fisrt-section-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,7 +94,7 @@ body{
     width: 60%;
 }
 
-.third-section{
+#third-section{
 
     padding-top: 5%;
     
@@ -115,7 +117,7 @@ body{
     width: 34%;
     margin-left: 15px;
     height: auto;
-    box-shadow: 5px 10px 20px gray;
+    box-shadow: 5px 5px 10px gray;
     border-radius: 15px;
     padding: 10px 10px;
     margin-bottom: 20%;
@@ -124,12 +126,11 @@ body{
 }
 .third-section-flex-items p{
     font-size: small;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,'Open Sans', 'Helvetica Neue', sans-serif ;
     font-weight: 400;
     text-align: justify;
 }
 
-.first-extra-section{
+#first-extra-section{
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-position: left;
@@ -172,29 +173,30 @@ body{
     
 
 }
-.second-extra-section{
+#second-extra-section{
     text-align: center;
     padding-top: 5%;
     padding-bottom: 10%;
     background-color:red;
 }
-.second-extra-section h1{
+#second-extra-section h1{
     font-size: 40px;
     color:white;
 }
-.second-extra-section a{
+#second-extra-section a{
     text-decoration:none;
     padding: 10px 80px;
     background-color: aqua;
     font-weight:700;
+    border-radius: 10px;
 }
-.footer{
+#footer{
     text-align: center;
     background-color: black;
     color:white;
-    padding: 5% 2% ;
     padding-top: 3%;
     padding-left: 4%;
+    padding-bottom: 2%;
 
 }
 .footer p{
